@@ -1,0 +1,6 @@
+---
+- name: Deploy file with content to /tmp/test1
+  copy:
+    dest: /tmp/test1
+    content: |
+      

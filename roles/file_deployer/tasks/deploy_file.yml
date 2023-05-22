@@ -1,0 +1,8 @@
+---
+- name: Deploy file to hosts
+  hosts: all
+  become: true
+
+  roles:
+    - file_deployer
+
