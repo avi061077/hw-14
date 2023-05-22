@@ -1,0 +1,8 @@
+---
+- name: Deploy template to hosts
+  hosts: all
+  become: true
+
+  roles:
+    - template_deployer
+
